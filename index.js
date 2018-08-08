@@ -17,6 +17,5 @@ function appendDriver(name){
  var drivers1 = []; 
  drivers1 = drivers; 
   drivers1.push(name); 
-   drivers1 = drivers; 
   return(driver); 
 }
