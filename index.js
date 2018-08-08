@@ -26,15 +26,15 @@ function prependDriver(name){
   drivers2.unshift(name); 
   return(drivers2); 
 }
-function (name){
- var drivers2 = []; 
- drivers2 = drivers.slice(0); 
-  drivers2.unshift(name); 
-  return(drivers2); 
+function removeLastDriver(name){
+ var drivers3 = []; 
+ drivers3 = drivers.slice(0); 
+  drivers3.pop(name); 
+  return(drivers3); 
 }
-function prependDriver(name){
- var drivers2 = []; 
- drivers2 = drivers.slice(0); 
-  drivers2.unshift(name); 
-  return(drivers2); 
+function removeFirstDriver(name){
+ var drivers4 = []; 
+ drivers4 = drivers.slice(0); 
+  drivers4.unshift(name); 
+  return(drivers4); 
 }
